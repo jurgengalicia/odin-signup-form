@@ -1,3 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
+.top-div{
+    display: flex;
+}
