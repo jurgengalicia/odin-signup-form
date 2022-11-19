@@ -1,7 +1,36 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
+    border: 1px solid red;
 }
 
 .top-div{
     display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-panel{
+    width: 30%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+.form-panel{
+    width: 70%;
+}
+.logo{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    height: 6rem;
+    top: 0;
+    margin-top: 12rem;
+}
+.art-credit{
+    position: absolute;
+    margin-bottom: 1.2em;
+    bottom: 0;
 }
