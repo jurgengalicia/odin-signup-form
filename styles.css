@@ -34,3 +34,19 @@
     margin-bottom: 1.2em;
     bottom: 0;
 }
+
+.form-panel{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.form-part{
+    height: 100px;
+}
+
+.sign-up-panel{
+    height: 18rem;
+    box-shadow: 2px;
+}
