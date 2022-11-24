@@ -42,8 +42,31 @@
     flex-direction: column;
 }
 
-.form-part{
-    height: 100px;
+h3{
+    margin-left: 2rem;
+}
+input{
+    margin-top: 0.5rem;
+    width: ;
+}
+
+.form-fields{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    gap: 20px;
+    width: 42rem;
+    height: 16rem;
+}
+.form-field{
+    width: 12rem;
+    margin: 4px 0px;
+    height: 90px;
+}
+
+.text-panel{
+    height: 13rem;
+    box-shadow: 2px;
 }
 
 .sign-up-panel{
