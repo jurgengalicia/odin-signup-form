@@ -16,6 +16,7 @@
     position: relative;
     justify-content: center;
     display: flex;
+    background-image: url("hero.jpg");
 }
 .form-panel{
     width: 70%;
