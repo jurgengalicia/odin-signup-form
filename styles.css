@@ -4,6 +4,14 @@
     border: 1px solid red;
 }
 
+.text-panel{
+    font-size: larger;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .top-div{
     display: flex;
     flex-direction: row;
