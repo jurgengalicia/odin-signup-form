@@ -14,9 +14,10 @@
 
 .create-panel{
     margin-left: 2rem;
+    height: 4rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .top-div{
