@@ -47,7 +47,13 @@
     height: 6rem;
     top: 0;
     margin-top: 11rem;
+    border: red 1px solid;
 }
+
+.logo-text{
+    vertical-align: middle;
+}
+
 .art-credit{
     position: absolute;
     margin-bottom: 1.2em;
@@ -68,6 +74,7 @@ input{
     margin-top: 0.5rem;
     width: 9rem;
 }
+
 
 .form-fields{
     display: flex;
