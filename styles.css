@@ -43,15 +43,20 @@
     position: absolute;
     width: 100%;
     text-align: center;
-    line-height: 100px;
+    
     height: 5rem;
     top: 0;
     margin-top: 11rem;
-    border: red 2px solid;
+    border: red 1px solid;
 }
 
 .logo-text{
     vertical-align: middle;
+    line-height: 80px;
+}
+
+.logo-icon{
+    
 }
 
 .art-credit{
