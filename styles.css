@@ -103,6 +103,6 @@ input{
 
 .sign-up-panel{
     height: 18rem;
-    background-color: white;
+    background-color: red;
     box-shadow: 10px 5px 5px black;
 }
