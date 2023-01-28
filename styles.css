@@ -94,7 +94,7 @@ input{
 
 .text-panel{
     height: 13rem;
-    box-shadow: 2px;
+    box-shadow: 1px;
     font-style: bold;
 }
 .text-panel p{
