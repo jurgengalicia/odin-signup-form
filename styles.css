@@ -24,12 +24,12 @@
 .top-div{
     display: flex;
     flex-direction: row;
-    width: 70rem;
+    width: 84rem;
     height: 100vh;
 }
 
 .image-panel{
-    width: 35%;
+    width: 40%;
     position: relative;
     justify-content: center;
     display: flex;
