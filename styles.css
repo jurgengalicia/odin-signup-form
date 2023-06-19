@@ -24,16 +24,17 @@
 .top-div{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 70rem;
     height: 100vh;
 }
 
 .image-panel{
-    width: 30%;
+    width: 35%;
     position: relative;
     justify-content: center;
     display: flex;
     background-image: url("images/hero.jpg");
+    background-position: center;
 }
 .form-panel{
     width: 70%;
