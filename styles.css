@@ -39,6 +39,7 @@
 .form-panel{
     width: 70%;
     background-color: #f9fafb;
+    font-weight: bold;
 }
 .logo{
     position: absolute;
