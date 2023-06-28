@@ -102,7 +102,7 @@ div>h3{
 
 .text-panel{
     height: 12rem;
-    margin-left: 0rem;
+    margin-left: 0rem ;
     box-shadow: 1px;
     font-style: bold;
 }
@@ -113,5 +113,5 @@ div>h3{
 .sign-up-panel{
     height: 18rem;
     background-color: white;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 1px 3px 3px gray;
 }
