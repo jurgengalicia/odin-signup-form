@@ -70,6 +70,9 @@
     gap: 20px;
     flex-direction: column;
 }
+.form-part{
+    padding-left: 2rem;
+}
 
 h3{
     margin-left: 1rem;
@@ -79,11 +82,14 @@ input{
     width: 9rem;
 }
 
+div>h3{
+    margin: 0px;
+}
+
 
 .form-fields{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 2rem;
     gap: 20px;
     width: 42rem;
     height: 16rem;
@@ -96,6 +102,7 @@ input{
 
 .text-panel{
     height: 12rem;
+    margin-left: 0rem;
     box-shadow: 1px;
     font-style: bold;
 }
