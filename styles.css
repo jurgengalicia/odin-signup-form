@@ -103,11 +103,10 @@ div>h3{
 .text-panel{
     height: 12rem;
     margin-left: 0rem ;
-    box-shadow: 1px;
-    font-style: bold;
+    font-weight: bold;
 }
 .text-panel p{
-    font-style: bold;
+    font-weight: bold;
 }
 
 .sign-up-panel{
