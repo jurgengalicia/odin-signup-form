@@ -53,8 +53,22 @@
     background: rgba(0, 0, 0, 0.1);
 }
 
+@font-face {
+    font-family: 'custom1';
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    
+    font-family: 'custom2';
+    src: url("fonts/Typographica-Blp5.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .logo-text{
+    font-family: 'custom2', sans-serif;
     vertical-align: middle;
+    font-size:32px;
     line-height: 135px;
 }
 

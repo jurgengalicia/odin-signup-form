@@ -1,4 +1,4 @@
-var tel = document.getElementById("tel")
+var tel = document.getElementById("telefono")
 var password = document.getElementsByClassName("pass")
 var conf_password = document.getElementsByClassName("conf-pass")
 
