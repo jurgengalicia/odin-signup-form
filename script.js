@@ -19,6 +19,6 @@ function validatePassword(){
         console.log(password.value);
 }
 
-submit_form.addEventListener('click', validatePassword);
 password.onchange = validatePassword;
 conf_password.onchange = validatePassword;
+submit_form.addEventListener('click', validatePassword);
