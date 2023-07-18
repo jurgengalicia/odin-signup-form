@@ -11,8 +11,8 @@ tel.addEventListener('keydown', function(e){
 submit_form.addEventListener('click', function(e){
     if(password.value !== conf_password.value){
         console.log("string not same");
-        conf_password.value = "";
-        password.value = "";
+        conf_password.style.border = "1px solid red";
+        password.style.border = "1px solid red";
     }else
         console.log("string same");
         console.log(password.value);
