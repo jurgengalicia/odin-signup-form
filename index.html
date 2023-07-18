@@ -31,45 +31,47 @@
                     </br>
                     <p>Sign up today!</p>
                 </div>
-                <div class="form-part sign-up-panel">
-                    <div><h3>Let's do this</h3></div>
-                    <div class="form-fields">
-                        <div class="form-field fname">
-                            <label for="fname">First Name</label>
-                            <br>
-                            <input required id="fname" maxlength="20" type="text" placeholder="John">
-                        </div>
-                        <div class="form-field lname">
-                            <label for="lname">Last Name</label>
-                            <br>
-                            <input required id="lname" maxlength="20" type="text" placeholder="Doe">
-                        </div>
-                        <div class="form-field email">
-                            <label for="emails" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">Email address</label>
-                            <br>
-                            <input required id="emails" type="email" placeholder="johndoe@email.com">
-                        </div>
-                        <div class="form-field phone">
-                            <label for="telefono">Phone Number</label>
-                            <br>
-                            <input type="text" id="telefono" inputmode="numeric" pattern="[0-9\-]+" placeholder="###-###-####" id="tel-input" maxlength="12">
-                        </div>
-                        <div class="form-field pass">
-                            <label for="pass">Password</label>
-                            <br>
-                            <input required id="pass" minlength="8" maxlength="20" type="password" placeholder="*******">
-                        </div>
-                        <div class="form-field conf-pass">
-                            <label for="conf-pass">Confirm Password</label>
-                            <br>
-                            <input required id="conf-pass" minlength="8" maxlength="20" type="password" placeholder="*******">
+                <form action="/action_page.php">
+                    <div class="form-part sign-up-panel">
+                        <div><h3>Let's do this</h3></div>
+                        <div class="form-fields">
+                            <div class="form-field fname">
+                                <label for="fname">First Name</label>
+                                <br>
+                                <input required id="fname" maxlength="20" type="text" placeholder="John">
+                            </div>
+                            <div class="form-field lname">
+                                <label for="lname">Last Name</label>
+                                <br>
+                                <input required id="lname" maxlength="20" type="text" placeholder="Doe">
+                            </div>
+                            <div class="form-field email">
+                                <label for="emails" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">Email address</label>
+                                <br>
+                                <input required id="emails" type="email" placeholder="johndoe@email.com">
+                            </div>
+                            <div class="form-field phone">
+                                <label for="telefono">Phone Number</label>
+                                <br>
+                                <input type="text" id="telefono" inputmode="numeric" pattern="[0-9\-]+" placeholder="###-###-####" id="tel-input" maxlength="12">
+                            </div>
+                            <div class="form-field pass">
+                                <label for="pass">Password</label>
+                                <br>
+                                <input required id="pass" minlength="8" maxlength="20" type="password" placeholder="*******">
+                            </div>
+                            <div class="form-field conf-pass">
+                                <label for="conf-pass">Confirm Password</label>
+                                <br>
+                                <input required id="conf-pass" minlength="8" maxlength="20" type="password" placeholder="*******">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-part create-panel">
-                    <div><button id="submit-button">Create Account</button></div>
-                    <div><p>Already have an account? <a href="www.google.com">Log In</a></p></div>
-                </div>
+                    <div class="form-part create-panel">
+                        <div><button id="submit-button">Create Account</button></div>
+                        <div><p>Already have an account? <a href="www.google.com">Log In</a></p></div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
