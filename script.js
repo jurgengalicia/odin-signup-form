@@ -1,6 +1,6 @@
 var tel = document.getElementById("telefono")
-var password = document.getElementsByClassName("pass")
-var conf_password = document.getElementsByClassName("conf-pass")
+var password = document.getElementById("pass")
+var conf_password = document.getElementById("conf-pass")
 var submit_form = document.getElementById("submit-button")
 
 tel.addEventListener('keydown', function(e){
@@ -8,17 +8,12 @@ tel.addEventListener('keydown', function(e){
         tel.value += "-";
 })
 
-function validatePassword(){
-    if(password.value != conf_password.value){
-        console.log("this worked");
+submit_form.addEventListener('click', function(e){
+    if(password.value !== conf_password.value){
+        console.log("string not same");
         conf_password.value = "";
         password.value = "";
-        conf_password.setCustomValidity("Passwords do not match");
     }else
-        console.log("not work");
+        console.log("string same");
         console.log(password.value);
-}
-
-password.onchange = validatePassword;
-conf_password.onchange = validatePassword;
-submit_form.addEventListener('click', validatePassword);
+})
