@@ -3,6 +3,7 @@ var password = document.getElementById("pass")
 var conf_password = document.getElementById("conf-pass")
 var submit_form = document.getElementById("submit-button")
 
+
 tel.addEventListener('keydown', function(e){
     if(e.key != "Backspace" && (tel.value.length === 3 || tel.value.length === 7))
         tel.value += "-";
